@@ -9,7 +9,7 @@ const client = new Discord.Client();
 var prefix = ';';
 
 
-client.login("NDc5MTkzNDM2NTcwOTEwNzIz.DlYEyw.kDp9WnQnvozs9PN168hUuX2qU2o");
+client.login(process.env.TOKEN)
 
 client.on("ready", () => {
     console.log("Bot Prêt");
